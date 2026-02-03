@@ -37,7 +37,7 @@ print("\n=== PART A: Warm-up Functions ===\n")
 # ------------------------------------------------------------
 def say_hello(name):
     """Prints a friendly greeting to the screen."""
-    # TODO: print greeting exactly like: Hello, Nick!
+
     print("hello", name)
 
 
@@ -48,7 +48,7 @@ def say_hello(name):
 # ------------------------------------------------------------
 def add_numbers(a, b):
     """Returns the sum of two numbers."""
-    # TODO: return the sum
+
     total = a + b
     return total
 
@@ -60,7 +60,7 @@ def add_numbers(a, b):
 # ------------------------------------------------------------
 def multiply(a, b):
     """Returns the product of two numbers."""
-    # TODO: return the product
+
     total = a * b
     return total
 
@@ -74,7 +74,7 @@ print("\n=== PART B: Return vs Print ===\n")
 # ------------------------------------------------------------
 def double_value(x):
     """Returns double the value of x."""
-    # TODO: return x * 2
+
     return x * 2
 
 
@@ -86,7 +86,7 @@ def double_value(x):
 # ------------------------------------------------------------
 def report_double(x):
     """Prints a report showing the double of x."""
-    # TODO: call double_value(x) and print the message
+
     print(double_value(x))
 
 
@@ -98,7 +98,7 @@ print("\n=== PART C: Mini Challenge (Make it Useful) ===\n")
 # ------------------------------------------------------------
 def fahrenheit_to_celsius(f):
     """Converts Fahrenheit to Celsius and returns the result."""
-    # TODO: return the Celsius conversion
+    return fahrenheit_to_celsius(f)
 
 
 
